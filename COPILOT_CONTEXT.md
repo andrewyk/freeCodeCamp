@@ -4,7 +4,7 @@
 freeCodeCamp.org is a non-profit open-source platform providing free coding education to millions of learners worldwide. The codebase contains a full-stack web application with curriculum management, user authentication, progress tracking, and certification systems.
 
 **Key Stats:**
-- 13,579+ coding challenges across 20+ certifications
+- 13,589+ coding challenges across 20+ certifications
 - 100,000+ developers have gotten their first job through freeCodeCamp
 - Full-stack curriculum covering web development, data science, and more
 - Multi-language support with active translation community
@@ -16,7 +16,7 @@ freeCodeCamp.org is a non-profit open-source platform providing free coding educ
 /workspaces/freeCodeCamp/
 ├── api/                    # Backend API (Fastify + MongoDB + Prisma)
 ├── client/                 # Frontend SPA (React + Gatsby + Redux)
-├── curriculum/             # Educational content (13,579+ challenges)
+├── curriculum/             # Educational content (13,589+ challenges)
 ├── shared/                 # Shared utilities and TypeScript types
 ├── tools/                  # Development and maintenance tools
 ├── e2e/                    # End-to-end Playwright tests
@@ -31,7 +31,7 @@ freeCodeCamp.org is a non-profit open-source platform providing free coding educ
 - **Styling**: Tailwind CSS + Custom @freecodecamp/ui components
 - **Code Editor**: Monaco Editor 0.33.0 for in-browser coding
 - **Build**: Webpack via Gatsby, pnpm workspaces
-- **Type Safety**: TypeScript 5.2.2
+- **Type Safety**: TypeScript 5.7.3
 
 #### **Backend (api/)**
 - **Framework**: Fastify 5.2.0 (high-performance Node.js framework)
@@ -43,7 +43,7 @@ freeCodeCamp.org is a non-profit open-source platform providing free coding educ
 
 #### **Curriculum System (curriculum/)**
 - **Format**: Markdown files with YAML frontmatter
-- **Challenges**: 13,579+ challenges across 20+ challenge types
+- **Challenges**: 13,589+ challenges across 20+ challenge types
 - **Structure**: Certifications → Superblocks → Blocks → Challenges
 - **Build**: Custom Node.js processing pipeline
 - **i18n**: Multi-language support via Crowdin
@@ -53,7 +53,7 @@ freeCodeCamp.org is a non-profit open-source platform providing free coding educ
 ### **Package Management**
 - **Tool**: pnpm (>=10) with workspaces
 - **Node**: >=22 required
-- **Monorepo**: 16 packages in pnpm-workspace.yaml
+- **Monorepo**: 14 packages in pnpm-workspace.yaml
 
 ### **Key Scripts**
 ```bash
